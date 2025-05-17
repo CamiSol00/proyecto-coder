@@ -1,0 +1,335 @@
+@font-face {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  src: local();
+}
+
+/** Header **/
+
+/** Encabezado **/
+
+.primerDivRosa {
+  background-color: #f9e2e7;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 2px;
+}
+
+.div_p_tienda {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.div_p_MF {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/** Nav **/
+
+.nav_ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.nav_ul_li {
+  margin-left: 40px;
+}
+
+.nav_ul_li_a {
+  text-decoration: none;
+  color: #ffb6c1;
+}
+
+/** Footer **/
+
+.footer_gral {
+  margin-top: 250px;
+}
+
+.footer_form {
+  margin-top: 18px;
+  font-weight: bolder;
+}
+
+.footer_email {
+  width: 100%; /* Se asegura que ocupe el 100% del espacio disponible */
+  max-width: 450px; /* Para mantener el tamaño máximo en pantallas grandes */
+}
+
+.footer_img {
+  width: 100%; /* La imagen se ajusta al contenedor */
+  max-width: 40px; /* Tamaño máximo para pantallas grandes */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.footer_div_suscripcion {
+  display: inline-block;
+}
+
+.footer_div_1,
+.footer_div_2 {
+  display: flex;
+  justify-content: center; /* Centra los elementos dentro de cada columna */
+  flex-wrap: wrap; /* Permite que los elementos se ajusten cuando el espacio es pequeño */
+  margin: 0 auto; /* Asegura que el contenido se centre */
+}
+
+.footer_div_2 {
+  margin-top: 18px;
+}
+
+.footer_div_3 {
+  margin-top: 50px; /* Ajusta el espacio para evitar solapamiento */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_ul {
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.footer_ul_li {
+  margin-left: 0;
+}
+
+.footer_ul_li_a {
+  text-decoration: none;
+  color: #ffb6c1;
+}
+
+.footer_btn {
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+}
+
+/** INDEX **/
+
+.indexImgEncabezado {
+  width: 100%;
+  height: auto;
+  max-height: 425px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.contenedor_img_redondo {
+  display: flex;
+  justify-content: center;
+}
+
+.img_redondo {
+  width: 100%;
+  max-width: 65px;
+  height: auto;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.contenedor_p_redondo {
+  display: flex;
+  justify-content: center;
+}
+
+.p_redondo {
+  margin-right: 5px;
+  margin-top: 10px;
+  width: 70px;
+}
+
+.p_redondo1 {
+  margin-right: 20px;
+}
+
+.p_redondo2 {
+  margin-right: 10px;
+}
+
+.p_redondo3 {
+  margin-right: 15px;
+}
+
+.p_redondo_a {
+  text-decoration: none;
+  color: black;
+}
+
+/** GRIDS - INDEX **/
+
+.gridI_container_body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.gridI_item_header {
+  grid-area: header;
+}
+
+.gridI_item_main {
+  grid-area: main;
+}
+
+.gridI_item_footer {
+  grid-area: footer;
+}
+
+/** General (las otras páginas) **/
+
+.tituloH2_todas {
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+.tituloH3_todas {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/** ¿Cómo Comprar? **/
+
+.contenedor_preg {
+  display: flex;
+  justify-content: center;
+}
+
+.preg {
+  font-size: 50px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.compra_titulo {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.compra_texto {
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.compra_opcion {
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+
+/** GRIDS - ¿CÓMO COMPRAR? **/
+
+.gridCC_container_body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.gridCC_item_header {
+  grid-area: header;
+}
+
+.gridCC_item_main {
+  grid-area: main;
+}
+
+.gridCC_item_footer {
+  grid-area: footer;
+}
+
+/** Contacto **/
+
+/** GRIDS - CONTACTO **/
+
+.gridC_container_body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.gridC_item_header {
+  grid-area: header;
+}
+
+.gridC_item_main {
+  grid-area: main;
+}
+
+.gridC_item_footer {
+  grid-area: footer;
+}
+
+/** Productos **/
+
+/** GRIDS - PRODUCTOS **/
+
+.gridP_container_body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.gridP_item_header {
+  grid-area: header;
+}
+
+.gridP_item_main {
+  grid-area: main;
+}
+
+.gridP_item_footer {
+  grid-area: footer;
+}
+
+/** SALE **/
+
+/** GRIDS - SALE **/
+
+.gridS_container_body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.gridS_item_header {
+  grid-area: header;
+}
+
+.gridS_item_main {
+  grid-area: main;
+}
+
+.gridS_item_footer {
+  grid-area: footer;
+}
