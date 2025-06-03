@@ -1,0 +1,50 @@
+/* general */
+
+/* -- header */
+.encabezadoDiv {
+  background-color: rgba(255, 182, 193, 0.2);
+
+  .encabezadoDiv_2 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.encabezadoP {
+  color: black;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+}
+
+.nav_ul {
+  list-style-type: none;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .nav_ul_li {
+  margin-right: 30px;
+
+  .nav_ul_li_a {
+  text-decoration: none;
+  color: #ffb6c1;
+}
+}
+}
+
+
+
+/* -- */

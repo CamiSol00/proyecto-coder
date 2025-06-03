@@ -1,0 +1,473 @@
+@charset "UTF-8";
+/* archivo principal */
+/* general */
+/* -- header */
+.encabezadoDiv {
+  background-color: rgba(255, 182, 193, 0.2);
+}
+.encabezadoDiv .encabezadoDiv_2 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+.encabezadoDiv .encabezadoP {
+  color: black;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.encabezadoDiv .logo {
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.nav_ul {
+  list-style-type: none;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav_ul .nav_ul_li {
+  margin-right: 30px;
+}
+.nav_ul .nav_ul_li .nav_ul_li_a {
+  text-decoration: none;
+  color: #ffb6c1;
+}
+
+/* -- */
+/* -- footer */
+.footer {
+  margin-left: 20px;
+}
+.footer .footerForm {
+  margin-top: 18px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.footer .footerForm .footerForm_label {
+  margin-bottom: 10px;
+}
+.footer .footerForm .footerForm_email {
+  display: block;
+  width: 100%;
+  max-width: 470px;
+}
+.footer .footerForm .footerForm_boton {
+  margin-top: 10px;
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+  border-radius: 5px;
+  color: white;
+  width: 120px;
+  margin-bottom: 20px;
+}
+.footer .footerImg {
+  width: 100%;
+  max-width: 40px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.footer .footerStrong {
+  font-size: 16px;
+}
+.footer .footerUl {
+  list-style-type: none;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.footer .footerUl .footerUl_li {
+  margin-left: -30px;
+}
+.footer .footerUl .footerUl_li .footerUl_li_a {
+  text-decoration: none;
+  color: #ffb6c1;
+}
+.footer .footerCopy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+/* -- */
+/* página: index (inicio) */
+.itemImgIndex_ppal {
+  width: 100%;
+  height: auto;
+  max-height: 425px;
+  margin-top: -13px;
+  margin-bottom: 20px;
+}
+
+.itemImgIndex_ppal:hover {
+  filter: blur(2px);
+}
+
+.h1Index {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: rgba(255, 182, 193, 0.2);
+  text-align: center;
+}
+
+.contenedorImgRedondas {
+  display: flex;
+  justify-content: center;
+}
+.contenedorImgRedondas .imgRedondo {
+  width: 100%;
+  max-width: 65px;
+  height: auto;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.contenedorImgRedondas .contenedorImgRedondas_p {
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+  margin-top: 10px;
+  width: 70px;
+}
+.contenedorImgRedondas .p_redondo1 {
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+.contenedorImgRedondas .p_redondo2 {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.contenedorImgRedondas .p_redondo3 {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.contenedorImgRedondas .p_redondo_a {
+  text-decoration: none;
+  color: black;
+}
+
+.h2Index {
+  color: #ffb6c1;
+  font-weight: bold;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* -- cards de index (inicio) */
+.styleCard_1 {
+  width: 100%;
+}
+
+.styleCard_2 {
+  height: 250px;
+  width: auto;
+}
+
+.styleCard_3 {
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+}
+
+.styleCard_4 {
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+}
+
+.styleCard_5 {
+  text-decoration: none;
+  color: white;
+}
+
+.tittle_card {
+  font-size: 22px;
+}
+
+.tittle_text {
+  font-size: 16px;
+}
+
+.text_card {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.h5Index {
+  font-size: 17px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.bannerP {
+  font-size: 2rem;
+}
+
+.bannerH6 {
+  color: black;
+  font-weight: 500;
+}
+
+/* -- */
+/* main de index */
+/* H1, H2, H3: páginas cómo comprar, productos, sale y contacto */
+.mainH1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: rgba(255, 182, 193, 0.07);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.mainH2 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.mainH3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+/* -- */
+/* página: productos */
+.styleCard_1 {
+  width: 100%;
+}
+
+.styleCard_2 {
+  height: 250px;
+  width: auto;
+}
+
+.styleCard_3 {
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+}
+
+.styleCard_4 {
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+}
+
+.styleCard_5 {
+  text-decoration: none;
+  color: white;
+}
+
+.tittle_card {
+  font-size: 22px;
+}
+
+.tittle_text {
+  font-size: 16px;
+}
+
+.text_card {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+/* -- */
+/* main de productos */
+/* H1, H2, H3: páginas cómo comprar, productos, sale y contacto */
+.mainH1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: rgba(255, 182, 193, 0.07);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.mainH2 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.mainH3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+/* -- */
+/* página: sale */
+.styleCard_1 {
+  width: 100%;
+}
+
+.styleCard_2 {
+  height: 250px;
+  width: auto;
+}
+
+.styleCard_3 {
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+}
+
+.styleCard_4 {
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+}
+
+.styleCard_5 {
+  text-decoration: none;
+  color: white;
+}
+
+.tittle_card {
+  font-size: 22px;
+}
+
+.tittle_text {
+  font-size: 16px;
+}
+
+.text_card {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+/* -- */
+/* main de sale */
+/* H1, H2, H3: páginas cómo comprar, productos, sale y contacto */
+.mainH1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: rgba(255, 182, 193, 0.07);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.mainH2 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.mainH3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+/* -- */
+/* página: cómo comprar */
+.divComoComprar {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.divComoComprar .mainH4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.divComoComprar .enviosyretiros {
+  margin-top: 20px;
+}
+.divComoComprar .mainH5 {
+  font-size: 16px;
+}
+.divComoComprar .mainH6 {
+  font-size: 16px;
+}
+
+/* -- */
+/* main de cómo comprar */
+/* H1, H2, H3: páginas cómo comprar, productos, sale y contacto */
+.mainH1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: rgba(255, 182, 193, 0.07);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.mainH2 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.mainH3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+/* -- */
+/* página: contacto */
+.contactoForm {
+  width: 80%;
+  max-width: 1000px;
+  margin: 3rem auto;
+  background-color: rgba(255, 182, 193, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  border-radius: 15px;
+}
+.contactoForm .contactoFormDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.contactoForm .contactoFormDiv .contactoFormLabel {
+  font-weight: lighter;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 16px;
+}
+.contactoForm .contactoFormDiv .contactoFormInTx {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+.contactoForm .contactoFormButton {
+  background-color: #ffb6c1;
+  border: #ffb6c1;
+  border-radius: 4px;
+  color: white;
+  height: 35px;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+/* -- */
+/* main de contacto */
+
+/*# sourceMappingURL=estilos.css.map */

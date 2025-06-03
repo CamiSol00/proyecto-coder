@@ -1,0 +1,51 @@
+/* H1, H2, H3: páginas cómo comprar, productos, sale y contacto */
+
+.mainH1 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: rgba(255, 182, 193, 0.07);
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.mainH2 {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.mainH3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+/* -- */
+
+/* página: cómo comprar */
+
+.divComoComprar {
+  margin-left: 10px;
+  margin-right: 20px;
+
+  .mainH4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .enviosyretiros {
+    margin-top: 20px;
+  }
+
+  .mainH5 {
+    font-size: 16px;
+  }
+
+  .mainH6 {
+    font-size: 16px;
+  }
+}
+/* -- */
